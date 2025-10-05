@@ -4,5 +4,7 @@ public class Kostum {
         System.out.println("===================");
         System.out.println("1. Sakura");
         System.out.println("2. Naruto");
+        System.out.println("3. Sylus");
+        System.out.println("4. Hinata");
     }
 }
