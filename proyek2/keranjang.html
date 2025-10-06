@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keranjang - HD RENTCOS</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="keranjang.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR (SAMA SEPERTI FILE LAIN) ===== -->
+  <header class="navbar">
+    <div class="logo">HD <span>RENTCOS</span></div>
+
+    <nav class="nav-links">
+      <a href="#">Produk</a>
+      <a href="jadwalEvent.html">Jadwal Event</a>
+      <a href="wishlist.html">Wishlist</a>
+    </nav>
+
+    <div class="search-box">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Search">
+    </div>
+
+    <div class="icons">
+      <i class="ri-notification-3-fill"></i>
+      <i class="ri-shopping-cart-fill"></i>
+      <i class="ri-message-3-fill"></i>
+    </div>
+
+    <div class="auth">
+      <a href="#" class="login">Login</a>
+      <span>|</span>
+      <a href="#" class="register">Register</a>
+    </div>
+  </header>
+
+  <!-- ===== KERANJANG ===== -->
+  <main class="cart-container">
+    <h2><i class="ri-shopping-cart-2-fill"></i> Keranjang Saya</h2>
+
+    <!-- Header -->
+    <div class="cart-header">
+      <span>Produk</span>
+      <span>Harga Satuan</span>
+      <span>Kuantitas</span>
+      <span>Total Harga</span>
+      <span>Aksi</span>
+    </div>
+
+    <!-- Item 1 -->
+    <div class="cart-item">
+      <div class="produk">
+        <input type="checkbox">
+        <img src="gantuntunganKunci.jpg" alt="Kostum Naruto">
+        <div class="detail">
+          <h4>Nama Kostum Naruto</h4>
+          <p>Kostum Cosplay Anime Jepang</p>
+        </div>
+      </div>
+      <div class="harga">Rp109.000</div>
+      <div class="kuantitas">
+        <button class="minus">-</button>
+        <input type="text" value="1" readonly>
+        <button class="plus">+</button>
+      </div>
+      <div class="total">Rp109.000</div>
+      <button class="hapus">Hapus</button>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="cart-item">
+      <div class="produk">
+        <input type="checkbox">
+        <img src="kostum2.jpg" alt="Kostum Bla">
+        <div class="detail">
+          <h4>Nama Kostum Bla</h4>
+          <p>Kostum Superhero Avengers</p>
+        </div>
+      </div>
+      <div class="harga">Rp109.000</div>
+      <div class="kuantitas">
+        <button class="minus">-</button>
+        <input type="text" value="1" readonly>
+        <button class="plus">+</button>
+      </div>
+      <div class="total">Rp109.000</div>
+      <button class="hapus">Hapus</button>
+    </div>
+
+    <!-- Total -->
+    <div class="cart-footer">
+      <p>Total (2 kostum): <strong>Rp218.000</strong></p>
+      <button class="checkout">Checkout</button>
+    </div>
+  </main>
+
+  <footer>
+       <footer class="footer">
+  <div class="footer-container">
+    <!-- Brand & Deskripsi -->
+    <div class="footer-brand">
+      <h2>HD RENTCOS</h2>
+      <p>
+        Kami menyediakan berbagai kostum cosplay berkualitas untuk disewa.
+        Tampil memukau di setiap event dengan karakter favoritmu!
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <!-- Company -->
+    <div class="footer-section">
+      <h3>PERUSAHAAN</h3>
+      <ul>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Layanan</a></li>
+        <li><a href="#">Portofolio</a></li>
+        <li><a href="#">Karier</a></li>
+      </ul>
+    </div>
+
+    <!-- Help -->
+    <div class="footer-section">
+      <h3>BANTUAN</h3>
+      <ul>
+        <li><a href="#">Dukungan Pelanggan</a></li>
+        <li><a href="#">Detail Pengiriman</a></li>
+        <li><a href="#">Syarat & Ketentuan</a></li>
+        <li><a href="#">Kebijakan Privasi</a></li>
+      </ul>
+    </div>
+
+    <!-- FAQ -->
+    <div class="footer-section">
+      <h3>FAQ</h3>
+      <ul>
+        <li><a href="#">Akun</a></li>
+        <li><a href="#">Kelola Pesanan</a></li>
+        <li><a href="#">Pengiriman</a></li>
+        <li><a href="#">Pembayaran</a></li>
+      </ul>
+    </div>
+
+    <!-- Resources -->
+    <div class="footer-section">
+      <h3>SUMBER DAYA</h3>
+      <ul>
+        <li><a href="#">Panduan Cosplayer</a></li>
+        <li><a href="#">Tutorial Makeup</a></li>
+        <li><a href="#">Blog Kostum</a></li>
+        <li><a href="#">Video Inspirasi</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>HD RENTCOS © 2025, Semua Hak Dilindungi</p>
+    <div class="payment-icons">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Apple_Pay_logo.svg" alt="Apple Pay">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_Pay_Logo.svg" alt="Google Pay">
+    </div>
+  </div>
+</footer>
+
+<!-- Font Awesome -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+    </footer>
+
+</body>
+</html>
